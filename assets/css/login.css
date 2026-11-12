@@ -1,0 +1,93 @@
+/* ==========================================================================
+   Estilos de la página de inicio de sesión
+   Sistema de Gestión de Prácticas Laborales - ITSEC SUCRE
+   ========================================================================== */
+
+.login-body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--color-primario) 0%, var(--color-secundario) 100%);
+    padding: 20px;
+}
+
+.login-card {
+    background-color: #ffffff;
+    border-radius: var(--borde-radio);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    max-width: 420px;
+    overflow: hidden;
+}
+
+.login-card__header {
+    background-color: var(--color-primario);
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 25px 25px;
+    border-bottom: 4px solid var(--color-acento);
+}
+
+.login-card__logo {
+    max-width: 70px;
+    height: auto;
+    margin-bottom: 12px;
+}
+
+.login-card__title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+.login-card__subtitle {
+    font-size: 0.8rem;
+    opacity: 0.85;
+    margin: 6px 0 0;
+}
+
+.login-card__body {
+    padding: 30px 30px 35px;
+}
+
+.login-card__body .form-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-texto);
+}
+
+.login-card__body .form-control {
+    font-size: 0.9rem;
+    padding: 10px 12px;
+}
+
+.login-card__body .form-control:focus {
+    border-color: var(--color-secundario);
+    box-shadow: 0 0 0 0.2rem rgba(46, 134, 171, 0.2);
+}
+
+.btn-login {
+    background-color: var(--color-primario);
+    border-color: var(--color-primario);
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px;
+    width: 100%;
+    transition: var(--transicion);
+}
+
+.btn-login:hover,
+.btn-login:focus {
+    background-color: var(--color-secundario);
+    border-color: var(--color-secundario);
+    color: #ffffff;
+}
+
+.login-card__footer {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #718096;
+    padding: 0 30px 25px;
+}
